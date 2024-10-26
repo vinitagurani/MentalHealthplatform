@@ -1,0 +1,47 @@
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+input.form-control {
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 20px;
+}
+
+.arima-font {
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+}
+
+table {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  border-radius: 5px;
+}
+
+
+/* App.css */
+body {
+  background-image:url("https://th.bing.com/th/id/R.5811dad59c0df7dcd374c3ed95039ea5?rik=YfOibHjDPsMxCA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2fc%2f5%2f1516000-top-mental-health-wallpaper-2560x1400-download-free.jpg&ehk=7nNqPmkgnDd6ltXWBy%2fGrFlgmVvcQABAOMqnLwYOG7U%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin-bottom: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Ensure components take full height to display background correctly */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
